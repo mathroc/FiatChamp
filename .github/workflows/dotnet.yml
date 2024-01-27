@@ -13,6 +13,8 @@ jobs:
         include:
           - arch: "armv7"
             rid: "linux-musl-arm"
+          - arch: "armv8"
+            rid: "linux-musl-arm64"
           - arch: "amd64"
             rid: "linux-musl-x64"
     runs-on: ubuntu-latest
